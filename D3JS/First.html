@@ -1,0 +1,22 @@
+﻿<head>
+    <script src="https://d3js.org/d3.v5.min.js"></script>
+</head>
+<body>
+    <svg height="210" width="400">
+        <path d="M150 0 L75 200 L225 100 Z"/>
+    </svg>
+    <script>
+    var color = d3.scaleOrdinal(['#4daf4a','#377eb8','#ff7f00','#984ea3','#e41a1c']);
+    console.log(color(0))
+    console.log(color(1))
+    console.log(color(2))
+    console.log(color(3))
+    console.log(color(4))
+    console.log(color(5))
+    </script>
+    <script>
+    var data = [2, 4, 8, 10];
+    var pie = d3.pie()
+    console.log(pie(data))
+    </script>
+</body>
