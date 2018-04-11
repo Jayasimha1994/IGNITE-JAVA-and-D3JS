@@ -1,0 +1,30 @@
+﻿{
+  "name": "toplevel",
+  "children": [
+    {
+      "name": "Rich",
+      "children": [
+        {
+          "name": "John",
+          "children": [
+            { "name": "Lee" },
+            { "name": "Candy" },
+            { "name": "Elise" },
+            { "name": "Sydney" },
+            { "name": "Garth" },
+            { "name": "Otto" },
+            { "name": "Randy" }
+          ]
+        },
+        {
+          "name": "Corry",
+          "children": [
+            { "name": "Adam" },
+            { "name": "Vinney" },
+            { "name": "Adison" }
+          ]
+        }
+      ]
+    }
+  ]
+}
